@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -31,6 +32,7 @@ import java.util.Map;
  */
 public class Cart implements Serializable {
 
+  @Serial
   private static final long serialVersionUID = 8329559983943337176L;
 
   private final Map<String, CartItem> itemMap = Collections.synchronizedMap(new HashMap<>());

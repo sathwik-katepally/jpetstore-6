@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -29,6 +30,7 @@ import java.util.List;
  */
 public class Order implements Serializable {
 
+  @Serial
   private static final long serialVersionUID = 6321792448424424931L;
 
   private int orderId;

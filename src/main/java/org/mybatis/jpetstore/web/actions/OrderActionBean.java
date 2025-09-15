@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.web.actions;
 
+import java.io.Serial;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -37,6 +38,7 @@ import org.mybatis.jpetstore.service.OrderService;
 @SessionScope
 public class OrderActionBean extends AbstractActionBean {
 
+  @Serial
   private static final long serialVersionUID = -6171288227470176272L;
 
   private static final String CONFIRM_ORDER = "/WEB-INF/jsp/order/ConfirmOrder.jsp";

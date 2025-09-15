@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.web.actions;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 import net.sourceforge.stripes.action.ActionBean;
@@ -28,6 +29,7 @@ import net.sourceforge.stripes.action.SimpleMessage;
  */
 public abstract class AbstractActionBean implements ActionBean, Serializable {
 
+  @Serial
   private static final long serialVersionUID = -1767714708233127983L;
 
   protected static final String ERROR = "/WEB-INF/jsp/common/Error.jsp";

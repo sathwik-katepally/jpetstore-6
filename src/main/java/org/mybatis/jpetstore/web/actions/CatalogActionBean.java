@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.web.actions;
 
+import java.io.Serial;
 import java.util.List;
 
 import net.sourceforge.stripes.action.DefaultHandler;
@@ -35,6 +36,7 @@ import org.mybatis.jpetstore.service.CatalogService;
 @SessionScope
 public class CatalogActionBean extends AbstractActionBean {
 
+  @Serial
   private static final long serialVersionUID = 5849523372175050635L;
 
   private static final String MAIN = "/WEB-INF/jsp/catalog/Main.jsp";

@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 import net.sourceforge.stripes.validation.Validate;
@@ -26,6 +27,7 @@ import net.sourceforge.stripes.validation.Validate;
  */
 public class Account implements Serializable {
 
+  @Serial
   private static final long serialVersionUID = 8751282105532159742L;
 
   private String username;

@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.web.actions;
 
+import java.io.Serial;
 import java.util.Iterator;
 
 import javax.servlet.http.HttpServletRequest;
@@ -37,6 +38,7 @@ import org.mybatis.jpetstore.service.CatalogService;
 @SessionScope
 public class CartActionBean extends AbstractActionBean {
 
+  @Serial
   private static final long serialVersionUID = -4038684592582714235L;
 
   private static final String VIEW_CART = "/WEB-INF/jsp/cart/Cart.jsp";

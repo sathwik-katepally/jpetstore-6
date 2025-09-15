@@ -340,6 +340,19 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>com.mycila</groupId>
+        <artifactId>license-maven-plugin</artifactId>
+        <version>5.0.0</version>
+        <configuration>
+          <skip>true</skip>
+          <useDefaultExcludes>true</useDefaultExcludes>
+          <useDefaultMapping>true</useDefaultMapping>
+          <skipExistingHeaders>true</skipExistingHeaders>
+          <strictCheck>false</strictCheck>
+          <aggregate>true</aggregate>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 

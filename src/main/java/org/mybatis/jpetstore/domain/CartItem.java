@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Optional;
@@ -26,6 +27,7 @@ import java.util.Optional;
  */
 public class CartItem implements Serializable {
 
+  @Serial
   private static final long serialVersionUID = 6620528781626504362L;
 
   private Item item;

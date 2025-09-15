@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.domain;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Optional;
@@ -26,6 +27,7 @@ import java.util.Optional;
  */
 public class LineItem implements Serializable {
 
+  @Serial
   private static final long serialVersionUID = 6804536240033522156L;
 
   private int orderId;

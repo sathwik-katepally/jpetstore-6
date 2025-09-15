@@ -15,6 +15,7 @@
  */
 package org.mybatis.jpetstore.web.actions;
 
+import java.io.Serial;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -42,6 +43,7 @@ import org.mybatis.jpetstore.service.CatalogService;
 @SessionScope
 public class AccountActionBean extends AbstractActionBean {
 
+  @Serial
   private static final long serialVersionUID = 5499663666155758178L;
 
   private static final String NEW_ACCOUNT = "/WEB-INF/jsp/account/NewAccountForm.jsp";
