@@ -58,12 +58,13 @@ export function ChatBot() {
     }
   }, [isOpen, isMinimized]);
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (!inputValue.trim()) return;
 
+    const userMessageText = inputValue;
     const newMessage: Message = {
       id: Date.now().toString(),
-      text: inputValue,
+      text: userMessageText,
       sender: 'user',
       timestamp: new Date()
     };
@@ -71,20 +72,52 @@ export function ChatBot() {
     setMessages(prev => [...prev, newMessage]);
     setInputValue('');
     
-    // Simulate bot typing
+    // Show typing indicator
     setIsTyping(true);
     
-    // Simulate bot response (replace with actual API call)
-    setTimeout(() => {
+    try {
+      // Call the API endpoint that communicates with MCP server
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message: userMessageText,
+          userId: 'guest', // You can replace this with actual user ID if available
+          context: {
+            previousMessages: messages.slice(-5).map(m => ({
+              role: m.sender === 'user' ? 'user' : 'assistant',
+              content: m.text
+            }))
+          }
+        })
+      });
+
+      const data = await response.json();
+      
       const botResponse: Message = {
         id: (Date.now() + 1).toString(),
-        text: 'Thank you for your message! This is a demo response. The chatbot functionality will be connected to a backend service.',
+        text: data.response || 'I apologize, but I couldn\'t process your request. Please try again.',
         sender: 'bot',
         timestamp: new Date()
       };
+      
       setMessages(prev => [...prev, botResponse]);
+    } catch (error) {
+      console.error('Error sending message:', error);
+      
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        text: 'I\'m sorry, I\'m having trouble connecting to the server. Please try again later.',
+        sender: 'bot',
+        timestamp: new Date()
+      };
+      
+      setMessages(prev => [...prev, errorMessage]);
+    } finally {
       setIsTyping(false);
-    }, 1500);
+    }
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -174,8 +207,8 @@ export function ChatBot() {
           {/* Messages Area */}
           {!isMinimized && (
             <>
-              <ScrollArea className="flex-1 p-4" ref={scrollAreaRef}>
-                <div className="space-y-4">
+              <ScrollArea className="flex-1 p-4 overflow-hidden" ref={scrollAreaRef}>
+                <div className="space-y-4 pr-2">
                   {messages.map((message) => (
                     <div
                       key={message.id}
@@ -197,17 +230,18 @@ export function ChatBot() {
                       </Avatar>
                       <div
                         className={cn(
-                          "flex flex-col gap-1 max-w-[75%]",
+                          "flex flex-col gap-1 max-w-[75%] min-w-0",
                           message.sender === 'user' && "items-end"
                         )}
                       >
                         <div
                           className={cn(
-                            "rounded-2xl px-4 py-2.5 text-sm",
+                            "rounded-2xl px-4 py-2.5 text-sm break-words overflow-wrap-anywhere",
                             message.sender === 'bot'
                               ? "bg-muted text-foreground rounded-tl-sm"
                               : "bg-primary text-primary-foreground rounded-tr-sm"
                           )}
+                          style={{ wordBreak: 'break-word', overflowWrap: 'anywhere' }}
                         >
                           {message.text}
                         </div>
@@ -238,29 +272,40 @@ export function ChatBot() {
                 </div>
               </ScrollArea>
 
-              {/* Quick Actions */}
-              <div className="px-4 py-2 border-t">
-                <div className="flex gap-2 flex-wrap">
-                  <button
-                    onClick={() => setInputValue('Tell me about your pets')}
-                    className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-                  >
-                    Browse Pets
-                  </button>
-                  <button
-                    onClick={() => setInputValue('How do I place an order?')}
-                    className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-                  >
-                    How to Order
-                  </button>
-                  <button
-                    onClick={() => setInputValue('Contact support')}
-                    className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
-                  >
-                    Support
-                  </button>
+              {/* Quick Actions - Only show if user hasn't interacted yet */}
+              {messages.length === 1 && (
+                <div className="px-4 py-2 border-t">
+                  <div className="flex gap-2 flex-wrap">
+                    <button
+                      onClick={() => {
+                        setInputValue('Tell me about your pets');
+                        handleSendMessage();
+                      }}
+                      className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      Browse Pets
+                    </button>
+                    <button
+                      onClick={() => {
+                        setInputValue('How do I place an order?');
+                        handleSendMessage();
+                      }}
+                      className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      How to Order
+                    </button>
+                    <button
+                      onClick={() => {
+                        setInputValue('Contact support');
+                        handleSendMessage();
+                      }}
+                      className="text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
+                    >
+                      Support
+                    </button>
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Input Area */}
               <div className="p-4 border-t">
