@@ -1,0 +1,244 @@
+{
+  "dog": {
+    "general": {
+      "space": "Varies by size - apartment to large yard",
+      "temperature": "60-75°F (15-24°C) ideal",
+      "humidity": "30-70% relative humidity",
+      "indoor_outdoor": "Both, with supervised outdoor time",
+      "environment_setup": {
+        "sleeping_area": "Comfortable bed in quiet area",
+        "feeding_station": "Non-slip bowls, away from high traffic",
+        "play_area": "Safe space for toys and activities",
+        "bathroom_area": "Easy outdoor access or pee pads for small dogs"
+      },
+      "safety": [
+        "Secure fencing for yard",
+        "Remove toxic plants",
+        "Secure garbage cans",
+        "Store chemicals out of reach",
+        "No small objects that can be swallowed"
+      ],
+      "suitable_for": {
+        "apartment": true,
+        "house": true,
+        "families": true
+      },
+      "first_time_friendly": true,
+      "special": [
+        "Daily exercise required",
+        "Mental stimulation important",
+        "Regular grooming needs"
+      ]
+    },
+    "breeds": {
+      "golden_retriever": {
+        "space": "Large yard preferred",
+        "first_time_friendly": true,
+        "special": [
+          "Needs lots of exercise",
+          "Swimming access beneficial",
+          "Sheds heavily - frequent vacuuming"
+        ]
+      },
+      "bulldog": {
+        "space": "Apartment suitable",
+        "special": [
+          "Air conditioning essential",
+          "Avoid stairs if possible",
+          "Non-slip flooring important",
+          "Keep facial folds clean and dry"
+        ]
+      }
+    }
+  },
+  "cat": {
+    "general": {
+      "space": "Indoor living recommended",
+      "temperature": "65-75°F (18-24°C) ideal",
+      "humidity": "30-50% relative humidity",
+      "indoor_outdoor": "Indoor strongly recommended for safety",
+      "environment_setup": {
+        "litter_boxes": "One per cat plus one extra",
+        "scratching_posts": "Multiple, various textures",
+        "perches": "High places for security",
+        "hiding_spots": "Boxes, cat trees, quiet areas",
+        "feeding_station": "Quiet area, away from litter box"
+      },
+      "safety": [
+        "Secure windows and balconies",
+        "Remove toxic plants (lilies, etc.)",
+        "Hide electrical cords",
+        "Secure small objects",
+        "No access to string or yarn unsupervised"
+      ],
+      "suitable_for": {
+        "apartment": true,
+        "house": true,
+        "families": true
+      },
+      "first_time_friendly": true,
+      "special": [
+        "Vertical space important",
+        "Environmental enrichment needed",
+        "Regular play sessions"
+      ]
+    },
+    "breeds": {
+      "persian": {
+        "special": [
+          "Daily grooming essential",
+          "Keep face clean and dry",
+          "Air conditioning beneficial",
+          "Low shelves for easy access"
+        ]
+      },
+      "siamese": {
+        "special": [
+          "Needs lots of interaction",
+          "Puzzle feeders recommended",
+          "May need companion cat",
+          "Secure environment - very curious"
+        ]
+      }
+    }
+  },
+  "bird": {
+    "general": {
+      "space": "Cage size varies by species",
+      "temperature": "65-80°F (18-27°C)",
+      "humidity": "50-70% for most species",
+      "indoor_outdoor": "Indoor only",
+      "environment_setup": {
+        "cage_placement": "Against wall, eye level, away from kitchen",
+        "perches": "Various diameters and textures",
+        "toys": "Rotate regularly for enrichment",
+        "food_water": "Multiple stations, changed daily"
+      },
+      "safety": [
+        "No Teflon cookware (toxic fumes)",
+        "No aerosols or strong chemicals",
+        "Secure windows and doors",
+        "No ceiling fans when out of cage",
+        "Bird-safe plants only"
+      ],
+      "suitable_for": {
+        "apartment": true,
+        "house": true,
+        "families": true
+      },
+      "first_time_friendly": false,
+      "special": [
+        "12 hours light/dark cycle",
+        "Social interaction crucial",
+        "Regular out-of-cage time"
+      ]
+    }
+  },
+  "fish": {
+    "general": {
+      "space": "Tank size varies by species",
+      "temperature": "Species-specific",
+      "indoor_outdoor": "Indoor only",
+      "environment_setup": {
+        "filtration": "Essential for all setups",
+        "heating": "Required for tropical species",
+        "lighting": "8-10 hours daily",
+        "substrate": "Appropriate for species",
+        "decorations": "Hiding spots and plants"
+      },
+      "safety": [
+        "Secure lid to prevent jumping",
+        "No soap or chemicals near tank",
+        "Stable surface for tank",
+        "GFCI outlet for electrical safety",
+        "Keep away from direct sunlight"
+      ],
+      "suitable_for": {
+        "apartment": true,
+        "house": true,
+        "families": true
+      },
+      "first_time_friendly": true,
+      "special": [
+        "Cycle tank before adding fish",
+        "Regular water testing",
+        "Partial water changes weekly"
+      ]
+    },
+    "breeds": {
+      "goldfish": {
+        "space": "Minimum 20 gallons per fish",
+        "temperature": "65-72°F (18-22°C)",
+        "special": [
+          "Strong filtration needed",
+          "No sharp decorations",
+          "Sinking food for fancy varieties"
+        ]
+      },
+      "betta": {
+        "space": "Minimum 5 gallons",
+        "temperature": "76-82°F (24-28°C)",
+        "special": [
+          "Gentle filtration",
+          "Resting spots near surface",
+          "Solo housing for males"
+        ]
+      }
+    }
+  },
+  "reptile": {
+    "general": {
+      "space": "Terrarium size varies by species",
+      "temperature": "Gradient required",
+      "humidity": "Species-specific",
+      "indoor_outdoor": "Indoor only",
+      "environment_setup": {
+        "heating": "Basking spot and gradient",
+        "lighting": "UVB for most species",
+        "substrate": "Species-appropriate",
+        "hides": "Warm and cool side",
+        "water": "Bowl or misting system"
+      },
+      "safety": [
+        "Secure, escape-proof enclosure",
+        "Thermostat for heating elements",
+        "No loose substrate for some species",
+        "Appropriate ventilation",
+        "Lock for enclosure"
+      ],
+      "suitable_for": {
+        "apartment": true,
+        "house": true,
+        "families": false
+      },
+      "first_time_friendly": false,
+      "special": [
+        "Research species-specific needs",
+        "Quarantine new animals",
+        "Regular health checks"
+      ]
+    },
+    "breeds": {
+      "bearded_dragon": {
+        "space": "40 gallon minimum for adult",
+        "temperature": "Basking 95-110°F, cool side 75-85°F",
+        "humidity": "30-40%",
+        "special": [
+          "UVB essential",
+          "Calcium supplementation",
+          "Varied diet required"
+        ]
+      },
+      "ball_python": {
+        "space": "40 gallon minimum for adult",
+        "temperature": "Basking 88-92°F, cool side 78-80°F",
+        "humidity": "50-60%",
+        "special": [
+          "Secure hides essential",
+          "Climbing branches beneficial",
+          "Consistent humidity important"
+        ]
+      }
+    }
+  }
+}

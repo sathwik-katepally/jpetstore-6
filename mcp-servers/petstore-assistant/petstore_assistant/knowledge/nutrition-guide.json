@@ -1,0 +1,327 @@
+{
+  "dog": {
+    "puppy": {
+      "base_calories": 55,
+      "feeding_schedule": "3-4 times daily until 6 months, then 2-3 times daily",
+      "primary_foods": [
+        "High-quality puppy formula",
+        "DHA-enriched food for brain development",
+        "Small breed or large breed specific formulas"
+      ],
+      "treats": [
+        "Training treats (small, soft)",
+        "Puppy-safe chews",
+        "Frozen Kong toys with puppy food"
+      ],
+      "avoid": [
+        "Chocolate",
+        "Grapes and raisins",
+        "Onions and garlic",
+        "Xylitol (artificial sweetener)",
+        "Macadamia nuts",
+        "Avocado",
+        "Cooked bones",
+        "Raw eggs"
+      ],
+      "hydration": "Fresh water available at all times",
+      "supplements": [
+        "Usually not needed with complete puppy food",
+        "Consult vet for large breed puppies"
+      ],
+      "special_needs": [
+        "Higher protein and fat content needed",
+        "Calcium/phosphorus ratio critical for large breeds"
+      ]
+    },
+    "adult": {
+      "base_calories": 30,
+      "feeding_schedule": "2 times daily",
+      "primary_foods": [
+        "Complete and balanced adult dog food",
+        "Protein-rich formulas",
+        "Breed-size appropriate kibble"
+      ],
+      "treats": [
+        "Dental chews",
+        "Training treats (max 10% of daily calories)",
+        "Vegetables (carrots, green beans)",
+        "Plain cooked chicken or turkey"
+      ],
+      "avoid": [
+        "Chocolate",
+        "Grapes and raisins",
+        "Onions and garlic",
+        "Xylitol",
+        "Cooked bones",
+        "Fatty foods",
+        "Salt and salty snacks"
+      ],
+      "hydration": "1 ounce per pound of body weight daily",
+      "supplements": [
+        "Omega-3 fatty acids for coat health",
+        "Glucosamine for joint health (large breeds)"
+      ]
+    },
+    "senior": {
+      "base_calories": 25,
+      "feeding_schedule": "2 times daily, smaller portions",
+      "primary_foods": [
+        "Senior formula with joint support",
+        "Lower calorie options",
+        "Easy-to-digest proteins",
+        "Added fiber for digestion"
+      ],
+      "treats": [
+        "Soft treats for dental issues",
+        "Low-calorie options",
+        "Glucosamine treats"
+      ],
+      "avoid": [
+        "Same as adult, plus high-sodium foods",
+        "Foods difficult to chew"
+      ],
+      "hydration": "Increased water needs, monitor closely",
+      "supplements": [
+        "Glucosamine and chondroitin",
+        "Omega-3 fatty acids",
+        "Probiotics for digestion",
+        "Antioxidants"
+      ],
+      "special_needs": [
+        "May need softer food for dental issues",
+        "Lower protein if kidney issues present"
+      ]
+    },
+    "breeds": {
+      "golden_retriever": {
+        "special_needs": [
+          "Prone to obesity - careful portion control",
+          "May benefit from joint supplements early"
+        ],
+        "avoid": [
+          "Overfeeding - measure portions carefully"
+        ]
+      },
+      "bulldog": {
+        "special_needs": [
+          "Slow feeder bowls to prevent gulping",
+          "Elevated feeders may help breathing",
+          "Lower calorie needs due to low activity"
+        ]
+      }
+    }
+  },
+  "cat": {
+    "kitten": {
+      "base_calories": 60,
+      "feeding_schedule": "4-5 times daily until 6 months, then 3-4 times",
+      "primary_foods": [
+        "High-quality kitten formula",
+        "Mix of wet and dry food",
+        "High protein content (min 30%)"
+      ],
+      "treats": [
+        "Kitten-specific treats",
+        "Small pieces of cooked chicken",
+        "Freeze-dried meat treats"
+      ],
+      "avoid": [
+        "Dog food",
+        "Milk (causes digestive upset)",
+        "Raw fish",
+        "Onions and garlic",
+        "Chocolate",
+        "Grapes and raisins",
+        "Raw eggs"
+      ],
+      "hydration": "Fresh water always, consider water fountain",
+      "supplements": [
+        "Usually not needed with complete kitten food",
+        "Taurine is essential (included in cat food)"
+      ]
+    },
+    "adult": {
+      "base_calories": 30,
+      "feeding_schedule": "2-3 times daily",
+      "primary_foods": [
+        "High-quality adult cat food",
+        "High protein, moderate fat",
+        "Mix of wet and dry recommended"
+      ],
+      "treats": [
+        "Commercial cat treats (max 10% calories)",
+        "Freeze-dried meat",
+        "Small amounts of cooked fish",
+        "Catnip or cat grass"
+      ],
+      "avoid": [
+        "Dog food (lacks taurine)",
+        "Milk and dairy",
+        "Raw fish or meat",
+        "Onions, garlic, chives",
+        "Caffeine",
+        "Alcohol",
+        "Raw dough"
+      ],
+      "hydration": "50-60ml per kg body weight daily",
+      "supplements": [
+        "Hairball remedies for long-haired cats",
+        "Omega-3 for coat health"
+      ]
+    },
+    "senior": {
+      "base_calories": 25,
+      "feeding_schedule": "2-3 times daily, smaller portions",
+      "primary_foods": [
+        "Senior cat formula",
+        "Lower phosphorus for kidney health",
+        "Easy-to-digest proteins",
+        "More wet food for hydration"
+      ],
+      "treats": [
+        "Soft treats",
+        "Low-phosphorus options",
+        "Small, frequent treats"
+      ],
+      "hydration": "Critical - encourage water intake",
+      "supplements": [
+        "Joint supplements",
+        "Probiotics",
+        "B vitamins",
+        "Antioxidants"
+      ],
+      "special_needs": [
+        "Monitor kidney function",
+        "May need prescription diet"
+      ]
+    }
+  },
+  "bird": {
+    "general": {
+      "base_calories": "Varies greatly by species",
+      "feeding_schedule": "2 times daily with foraging opportunities",
+      "primary_foods": [
+        "High-quality pellets (60-70% of diet)",
+        "Fresh vegetables daily",
+        "Limited fruits (high sugar)",
+        "Species-appropriate seeds"
+      ],
+      "treats": [
+        "Millet spray (sparingly)",
+        "Unsalted nuts (for larger birds)",
+        "Whole grain pasta or bread (small amounts)"
+      ],
+      "avoid": [
+        "Avocado (toxic)",
+        "Chocolate",
+        "Salt",
+        "Caffeine",
+        "Fruit pits",
+        "Onions and garlic",
+        "Mushrooms"
+      ],
+      "hydration": "Fresh water changed daily",
+      "supplements": [
+        "Calcium (especially for egg-laying females)",
+        "Vitamin D3 if no UV light"
+      ]
+    }
+  },
+  "fish": {
+    "goldfish": {
+      "feeding_schedule": "2-3 times daily, only what they eat in 2 minutes",
+      "primary_foods": [
+        "High-quality goldfish pellets or flakes",
+        "Sinking pellets for fancy goldfish",
+        "Occasional vegetables (peas, lettuce)"
+      ],
+      "treats": [
+        "Bloodworms (frozen or freeze-dried)",
+        "Brine shrimp",
+        "Daphnia",
+        "Blanched vegetables"
+      ],
+      "avoid": [
+        "Overfeeding (major cause of death)",
+        "Bread or human food",
+        "Feeder fish (disease risk)"
+      ],
+      "special_needs": [
+        "Soak dry food to prevent swim bladder issues",
+        "Fast one day per week"
+      ]
+    },
+    "betta": {
+      "feeding_schedule": "1-2 times daily, 2-4 pellets per feeding",
+      "primary_foods": [
+        "High-quality betta pellets",
+        "High protein content required"
+      ],
+      "treats": [
+        "Bloodworms",
+        "Brine shrimp",
+        "Daphnia",
+        "Mosquito larvae"
+      ],
+      "avoid": [
+        "Overfeeding",
+        "Generic tropical fish food",
+        "Freeze-dried food only (causes bloat)"
+      ],
+      "special_needs": [
+        "Stomach size of their eye",
+        "Fast one day per week"
+      ]
+    }
+  },
+  "reptile": {
+    "bearded_dragon": {
+      "juvenile": {
+        "feeding_schedule": "2-3 times daily",
+        "primary_foods": [
+          "80% insects (crickets, dubia roaches)",
+          "20% vegetables and greens",
+          "Calcium-dusted insects"
+        ]
+      },
+      "adult": {
+        "feeding_schedule": "Once daily",
+        "primary_foods": [
+          "80% vegetables and greens",
+          "20% insects",
+          "Dark leafy greens (collard, mustard)"
+        ]
+      },
+      "treats": [
+        "Waxworms (high fat, sparingly)",
+        "Berries",
+        "Squash flowers"
+      ],
+      "avoid": [
+        "Avocado",
+        "Rhubarb",
+        "Fireflies (toxic)",
+        "Wild-caught insects"
+      ],
+      "supplements": [
+        "Calcium with D3",
+        "Multivitamin weekly"
+      ]
+    },
+    "ball_python": {
+      "feeding_schedule": "Every 1-2 weeks depending on size",
+      "primary_foods": [
+        "Appropriately sized frozen-thawed rodents",
+        "Prey size: 1.5x thickest part of snake"
+      ],
+      "avoid": [
+        "Live prey if possible (injury risk)",
+        "Wild-caught prey"
+      ],
+      "special_needs": [
+        "May refuse food during breeding season",
+        "Don't handle for 48 hours after feeding"
+      ]
+    }
+  }
+}
