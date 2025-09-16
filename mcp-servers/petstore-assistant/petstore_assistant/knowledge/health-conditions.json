@@ -1,0 +1,264 @@
+{
+  "dog": {
+    "common": [
+      "Dental disease",
+      "Obesity",
+      "Parasites (fleas, ticks, worms)",
+      "Ear infections",
+      "Skin allergies"
+    ],
+    "breeds": {
+      "golden_retriever": [
+        "Hip dysplasia",
+        "Elbow dysplasia",
+        "Cancer (especially hemangiosarcoma)",
+        "Heart disease",
+        "Eye conditions (cataracts, PRA)"
+      ],
+      "bulldog": [
+        "Brachycephalic airway syndrome",
+        "Hip dysplasia",
+        "Cherry eye",
+        "Skin fold dermatitis",
+        "Heat stroke susceptibility"
+      ],
+      "poodle": [
+        "Progressive retinal atrophy",
+        "Bloat (in standard poodles)",
+        "Addison's disease",
+        "Epilepsy",
+        "Luxating patella (in toy/miniature)"
+      ]
+    },
+    "age": {
+      "puppy": [
+        "Parvovirus",
+        "Distemper",
+        "Kennel cough",
+        "Intestinal parasites",
+        "Growth disorders"
+      ],
+      "adult": [
+        "Dental disease",
+        "Obesity",
+        "Arthritis (early stages)",
+        "Allergies"
+      ],
+      "senior": [
+        "Arthritis",
+        "Cancer",
+        "Kidney disease",
+        "Heart disease",
+        "Cognitive dysfunction"
+      ]
+    },
+    "prevention": [
+      "Regular veterinary check-ups",
+      "Keep vaccinations up to date",
+      "Monthly parasite prevention",
+      "Daily teeth brushing",
+      "Maintain healthy weight",
+      "Regular exercise"
+    ],
+    "warning_signs": [
+      "Loss of appetite",
+      "Excessive thirst or urination",
+      "Difficulty breathing",
+      "Persistent vomiting or diarrhea",
+      "Lethargy or unusual behavior",
+      "Lumps or bumps",
+      "Bad breath or drooling"
+    ]
+  },
+  "cat": {
+    "common": [
+      "Dental disease",
+      "Obesity",
+      "Parasites",
+      "Upper respiratory infections",
+      "Kidney disease"
+    ],
+    "breeds": {
+      "persian": [
+        "Polycystic kidney disease",
+        "Breathing difficulties",
+        "Eye discharge/tear staining",
+        "Dental malocclusion",
+        "Ringworm susceptibility"
+      ],
+      "siamese": [
+        "Asthma",
+        "Amyloidosis",
+        "Progressive retinal atrophy",
+        "Hip dysplasia",
+        "Obsessive-compulsive behaviors"
+      ],
+      "maine_coon": [
+        "Hypertrophic cardiomyopathy",
+        "Hip dysplasia",
+        "Spinal muscular atrophy",
+        "Polycystic kidney disease"
+      ]
+    },
+    "age": {
+      "kitten": [
+        "Upper respiratory infections",
+        "Intestinal parasites",
+        "Feline panleukopenia",
+        "Ear mites"
+      ],
+      "adult": [
+        "Dental disease",
+        "Obesity",
+        "Lower urinary tract disease",
+        "Diabetes"
+      ],
+      "senior": [
+        "Chronic kidney disease",
+        "Hyperthyroidism",
+        "Arthritis",
+        "Cancer",
+        "Dental disease"
+      ]
+    },
+    "prevention": [
+      "Indoor lifestyle to reduce risks",
+      "Regular veterinary check-ups",
+      "Proper nutrition",
+      "Fresh water always available",
+      "Clean litter box",
+      "Environmental enrichment"
+    ],
+    "warning_signs": [
+      "Changes in litter box habits",
+      "Hiding or behavior changes",
+      "Loss of appetite",
+      "Excessive grooming or hair loss",
+      "Vomiting (beyond occasional hairballs)",
+      "Weight loss or gain",
+      "Bad breath"
+    ]
+  },
+  "bird": {
+    "common": [
+      "Psittacosis (parrot fever)",
+      "Feather plucking",
+      "Respiratory infections",
+      "Nutritional deficiencies",
+      "Egg binding (females)"
+    ],
+    "breeds": {
+      "parakeet": [
+        "Tumors",
+        "Scaly face mites",
+        "Respiratory infections",
+        "Obesity from seed-only diet"
+      ],
+      "cockatiel": [
+        "Night frights",
+        "Fatty liver disease",
+        "Respiratory issues from powder down",
+        "Egg binding"
+      ]
+    },
+    "prevention": [
+      "Balanced diet (not just seeds)",
+      "Clean cage environment",
+      "Proper ventilation",
+      "Regular vet check-ups",
+      "Quarantine new birds",
+      "Avoid toxic fumes (Teflon, aerosols)"
+    ],
+    "warning_signs": [
+      "Fluffed feathers when not cold",
+      "Discharge from eyes or nostrils",
+      "Changes in droppings",
+      "Loss of appetite",
+      "Sitting on cage bottom",
+      "Labored breathing",
+      "Feather loss or plucking"
+    ]
+  },
+  "fish": {
+    "common": [
+      "Ich (white spot disease)",
+      "Fin rot",
+      "Swim bladder disease",
+      "Fungal infections",
+      "Parasites"
+    ],
+    "breeds": {
+      "goldfish": [
+        "Swim bladder disease",
+        "Dropsy",
+        "Constipation",
+        "Ammonia poisoning"
+      ],
+      "betta": [
+        "Fin rot",
+        "Velvet disease",
+        "Bloat",
+        "Popeye"
+      ]
+    },
+    "prevention": [
+      "Maintain proper water quality",
+      "Regular water changes",
+      "Avoid overfeeding",
+      "Quarantine new fish",
+      "Proper filtration",
+      "Stable temperature"
+    ],
+    "warning_signs": [
+      "White spots on body or fins",
+      "Clamped fins",
+      "Gasping at surface",
+      "Loss of appetite",
+      "Unusual swimming patterns",
+      "Color changes",
+      "Visible parasites"
+    ]
+  },
+  "reptile": {
+    "common": [
+      "Metabolic bone disease",
+      "Respiratory infections",
+      "Parasites",
+      "Mouth rot",
+      "Shedding problems"
+    ],
+    "breeds": {
+      "bearded_dragon": [
+        "Metabolic bone disease",
+        "Impaction",
+        "Yellow fungus disease",
+        "Parasites",
+        "Brumation"
+      ],
+      "ball_python": [
+        "Respiratory infections",
+        "Scale rot",
+        "Mites",
+        "Retained shed",
+        "Inclusion body disease"
+      ]
+    },
+    "prevention": [
+      "Proper UVB lighting",
+      "Correct temperature gradient",
+      "Appropriate humidity",
+      "Clean habitat",
+      "Proper diet and supplements",
+      "Regular health checks"
+    ],
+    "warning_signs": [
+      "Wheezing or mouth breathing",
+      "Retained shed",
+      "Swollen joints or limbs",
+      "Loss of appetite",
+      "Lethargy",
+      "Discharge from mouth or nose",
+      "Abnormal feces"
+    ]
+  }
+}

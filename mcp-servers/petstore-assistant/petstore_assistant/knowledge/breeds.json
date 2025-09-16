@@ -1,0 +1,233 @@
+{
+  "dog": {
+    "golden_retriever": {
+      "characteristics": {
+        "size": "Large",
+        "weight_range": "25-35 kg",
+        "height_range": "51-61 cm",
+        "coat": "Dense, water-repellent double coat",
+        "colors": ["Golden", "Cream", "Light Golden"]
+      },
+      "temperament": ["Friendly", "Intelligent", "Devoted", "Gentle"],
+      "lifespan": "10-12 years",
+      "exercise_needs": "High - requires 2+ hours daily",
+      "grooming_needs": "High - daily brushing recommended",
+      "good_with": {
+        "children": true,
+        "other_pets": true,
+        "strangers": true
+      },
+      "special_considerations": [
+        "Prone to hip dysplasia",
+        "Needs mental stimulation",
+        "Heavy shedder"
+      ]
+    },
+    "poodle": {
+      "characteristics": {
+        "size": "Varies (Toy, Miniature, Standard)",
+        "weight_range": "2-32 kg depending on variety",
+        "coat": "Curly, hypoallergenic",
+        "colors": ["Black", "White", "Brown", "Apricot", "Silver"]
+      },
+      "temperament": ["Intelligent", "Active", "Alert", "Trainable"],
+      "lifespan": "12-15 years",
+      "exercise_needs": "Moderate to High",
+      "grooming_needs": "Very High - professional grooming every 6-8 weeks",
+      "good_with": {
+        "children": true,
+        "other_pets": true,
+        "allergies": true
+      }
+    },
+    "bulldog": {
+      "characteristics": {
+        "size": "Medium",
+        "weight_range": "18-25 kg",
+        "height_range": "31-40 cm",
+        "coat": "Short, smooth",
+        "colors": ["Brindle", "White", "Fawn", "Red"]
+      },
+      "temperament": ["Docile", "Willful", "Friendly", "Gregarious"],
+      "lifespan": "8-10 years",
+      "exercise_needs": "Low - short walks sufficient",
+      "grooming_needs": "Low - weekly brushing",
+      "special_considerations": [
+        "Brachycephalic - breathing issues",
+        "Heat sensitive",
+        "Prone to skin fold infections"
+      ]
+    },
+    "labrador": {
+      "characteristics": {
+        "size": "Large",
+        "weight_range": "25-36 kg",
+        "height_range": "54-62 cm",
+        "coat": "Short, dense, water-repellent",
+        "colors": ["Yellow", "Black", "Chocolate"]
+      },
+      "temperament": ["Outgoing", "Even Tempered", "Gentle", "Intelligent"],
+      "lifespan": "10-12 years",
+      "exercise_needs": "High - requires 2+ hours daily",
+      "grooming_needs": "Moderate - weekly brushing",
+      "good_with": {
+        "children": true,
+        "other_pets": true,
+        "water": true
+      }
+    }
+  },
+  "cat": {
+    "persian": {
+      "characteristics": {
+        "size": "Medium to Large",
+        "weight_range": "3.5-7 kg",
+        "coat": "Long, thick, luxurious",
+        "colors": ["Various solid and patterns"]
+      },
+      "temperament": ["Calm", "Gentle", "Quiet", "Sweet"],
+      "lifespan": "12-17 years",
+      "exercise_needs": "Low",
+      "grooming_needs": "Very High - daily grooming essential",
+      "special_considerations": [
+        "Brachycephalic breed - breathing issues",
+        "Eye discharge common",
+        "Indoor cat only"
+      ]
+    },
+    "siamese": {
+      "characteristics": {
+        "size": "Medium",
+        "weight_range": "3.5-5.5 kg",
+        "coat": "Short, fine, glossy",
+        "colors": ["Seal", "Chocolate", "Blue", "Lilac"]
+      },
+      "temperament": ["Vocal", "Social", "Intelligent", "Active"],
+      "lifespan": "15-20 years",
+      "exercise_needs": "High for a cat",
+      "grooming_needs": "Low - weekly brushing",
+      "special_considerations": [
+        "Very vocal",
+        "Needs companionship",
+        "Can be demanding"
+      ]
+    },
+    "maine_coon": {
+      "characteristics": {
+        "size": "Large",
+        "weight_range": "6-11 kg",
+        "coat": "Long, shaggy, water-resistant",
+        "colors": ["Various"]
+      },
+      "temperament": ["Gentle", "Friendly", "Intelligent", "Playful"],
+      "lifespan": "12-15 years",
+      "exercise_needs": "Moderate",
+      "grooming_needs": "High - regular brushing needed",
+      "special_considerations": [
+        "Largest domestic cat breed",
+        "Good with dogs",
+        "Loves water"
+      ]
+    }
+  },
+  "bird": {
+    "parakeet": {
+      "characteristics": {
+        "size": "Small",
+        "weight_range": "30-40 g",
+        "wingspan": "30 cm",
+        "colors": ["Green", "Blue", "Yellow", "White", "Various mutations"]
+      },
+      "temperament": ["Social", "Playful", "Intelligent", "Vocal"],
+      "lifespan": "5-10 years",
+      "exercise_needs": "Daily flight time outside cage",
+      "grooming_needs": "Low - occasional nail trimming",
+      "special_considerations": [
+        "Needs social interaction",
+        "Can learn to talk",
+        "Requires spacious cage"
+      ]
+    },
+    "cockatiel": {
+      "characteristics": {
+        "size": "Small to Medium",
+        "weight_range": "80-120 g",
+        "wingspan": "30-35 cm",
+        "colors": ["Gray", "White", "Yellow", "Pearl", "Pied"]
+      },
+      "temperament": ["Affectionate", "Gentle", "Social", "Whistles"],
+      "lifespan": "15-20 years",
+      "exercise_needs": "Daily flight and play time",
+      "grooming_needs": "Moderate - regular nail and beak care",
+      "special_considerations": [
+        "Produces powder down",
+        "Males are better whistlers",
+        "Can be taught tricks"
+      ]
+    }
+  },
+  "fish": {
+    "goldfish": {
+      "characteristics": {
+        "size": "10-30 cm",
+        "weight_range": "100-300 g",
+        "colors": ["Gold", "White", "Black", "Calico", "Red"]
+      },
+      "temperament": ["Peaceful", "Social", "Active"],
+      "lifespan": "10-30 years with proper care",
+      "tank_requirements": "Minimum 75 liters per fish",
+      "special_considerations": [
+        "Produces lots of waste",
+        "Needs good filtration",
+        "Can grow quite large"
+      ]
+    },
+    "betta": {
+      "characteristics": {
+        "size": "6-8 cm",
+        "weight_range": "3-4 g",
+        "colors": ["Red", "Blue", "Purple", "White", "Multicolor"]
+      },
+      "temperament": ["Territorial", "Aggressive to other bettas", "Interactive"],
+      "lifespan": "3-5 years",
+      "tank_requirements": "Minimum 20 liters",
+      "special_considerations": [
+        "Males must be kept alone",
+        "Needs warm water (24-27°C)",
+        "Can breathe air"
+      ]
+    }
+  },
+  "reptile": {
+    "bearded_dragon": {
+      "characteristics": {
+        "size": "40-60 cm",
+        "weight_range": "300-600 g",
+        "colors": ["Tan", "Yellow", "Red", "Orange"]
+      },
+      "temperament": ["Docile", "Friendly", "Alert", "Curious"],
+      "lifespan": "10-15 years",
+      "habitat_needs": "120cm terrarium minimum",
+      "special_considerations": [
+        "Needs UVB lighting",
+        "Omnivorous diet",
+        "Requires basking spot"
+      ]
+    },
+    "ball_python": {
+      "characteristics": {
+        "size": "90-150 cm",
+        "weight_range": "1-2 kg",
+        "colors": ["Various morphs available"]
+      },
+      "temperament": ["Docile", "Shy", "Nocturnal"],
+      "lifespan": "20-30 years",
+      "habitat_needs": "90cm terrarium minimum",
+      "special_considerations": [
+        "Needs secure enclosure",
+        "Requires proper humidity",
+        "Can be picky eaters"
+      ]
+    }
+  }
+}
